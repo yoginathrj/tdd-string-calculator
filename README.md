@@ -41,7 +41,9 @@ Make sure you are in the root directory of the project where the `tests` folder 
 You can run the tests using Python's built-in `unittest` module. Use the following command:
 
 ```bash
-python -m unittest discover -s tests
+python -m unittest discover -s tests -v
+
+
 ```
 
 This command will:
